@@ -8,7 +8,7 @@ vm_size                 = "Standard_D2s_v3"    # VM size for AKS nodes
 kubernetes_version      = "1.32.5"             # Kubernetes version for AKS cluster
 
 # GitOps Configuration
-gitops_repo_url  = "https://github.com/itsBaivab/gitops-configs.git" # GitOps repository for infrastructure configs (reference only)
+gitops_repo_url  = "https://github.com/sahutanmay017-bot/gitops-config.git" # GitOps repository for infrastructure configs (reference only)
 argocd_namespace = "argocd"                                          # Namespace where ArgoCD will be deployed
 
 # Application Deployment Configuration 
